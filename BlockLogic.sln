@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockLogicConsole", "BlockLogicConsole\BlockLogicConsole.csproj", "{558DF28D-3530-4E81-BAB4-7F7DA6D10498}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockLogic.TrickleSystem", "BlockLogic.TrickleSystem\BlockLogic.TrickleSystem.csproj", "{9409F67B-7EE5-41B0-B84F-F2AB21D84F2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockLogic.BlockChain", "BlockLogic.BlockChain\BlockLogic.BlockChain.csproj", "{8C56E033-02B6-427A-9276-04E028B629E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockLogic.Scheduler", "BlockLogic.Scheduler\BlockLogic.Scheduler.csproj", "{477A5AAF-0FDC-4CB3-89D7-AF92E1E476C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9409F67B-7EE5-41B0-B84F-F2AB21D84F2F} = {9409F67B-7EE5-41B0-B84F-F2AB21D84F2F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockLogic.WebApp", "BlockLogic.WebApp\BlockLogic.WebApp.csproj", "{CCE96177-2EC4-4D85-B5EE-980C80A89D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{558DF28D-3530-4E81-BAB4-7F7DA6D10498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558DF28D-3530-4E81-BAB4-7F7DA6D10498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558DF28D-3530-4E81-BAB4-7F7DA6D10498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558DF28D-3530-4E81-BAB4-7F7DA6D10498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9409F67B-7EE5-41B0-B84F-F2AB21D84F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9409F67B-7EE5-41B0-B84F-F2AB21D84F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9409F67B-7EE5-41B0-B84F-F2AB21D84F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9409F67B-7EE5-41B0-B84F-F2AB21D84F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C56E033-02B6-427A-9276-04E028B629E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C56E033-02B6-427A-9276-04E028B629E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C56E033-02B6-427A-9276-04E028B629E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C56E033-02B6-427A-9276-04E028B629E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477A5AAF-0FDC-4CB3-89D7-AF92E1E476C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477A5AAF-0FDC-4CB3-89D7-AF92E1E476C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477A5AAF-0FDC-4CB3-89D7-AF92E1E476C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477A5AAF-0FDC-4CB3-89D7-AF92E1E476C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE96177-2EC4-4D85-B5EE-980C80A89D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE96177-2EC4-4D85-B5EE-980C80A89D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE96177-2EC4-4D85-B5EE-980C80A89D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE96177-2EC4-4D85-B5EE-980C80A89D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0DC3245-FA84-4A30-83B9-4058DA5DD5A5}
+	EndGlobalSection
+EndGlobal

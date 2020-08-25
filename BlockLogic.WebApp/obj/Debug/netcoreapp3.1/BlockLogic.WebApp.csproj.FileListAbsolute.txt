@@ -1,0 +1,5 @@
+C:\BlockLogic\development\BlockLogic.WebApp\obj\Debug\netcoreapp3.1\BlockLogic.WebApp.csprojAssemblyReference.cache
+C:\BlockLogic\development\BlockLogic.WebApp\obj\Debug\netcoreapp3.1\BlockLogic.WebApp.csproj.CoreCompileInputs.cache
+C:\BlockLogic\development\BlockLogic.WebApp\obj\Debug\netcoreapp3.1\BlockLogic.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\BlockLogic\development\BlockLogic.WebApp\obj\Debug\netcoreapp3.1\BlockLogic.WebApp.AssemblyInfoInputs.cache
+C:\BlockLogic\development\BlockLogic.WebApp\obj\Debug\netcoreapp3.1\BlockLogic.WebApp.AssemblyInfo.cs

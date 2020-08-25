@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlockLogic.BlockChain",
+    "\\BlockLogic.Scheduler",
+    "\\BlockLogic.TrickleSystem",
+    "\\BlockLogicConsole"
+  ],
+  "SelectedNode": "\\BlockLogicConsole",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,263 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\BlockLogic\\development\\BlockLogic.Scheduler\\BlockLogic.Scheduler.csproj": {}
+  },
+  "projects": {
+    "C:\\BlockLogic\\development\\BlockLogic.BlockChain\\BlockLogic.BlockChain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BlockLogic\\development\\BlockLogic.BlockChain\\BlockLogic.BlockChain.csproj",
+        "projectName": "BlockLogic.BlockChain",
+        "projectPath": "C:\\BlockLogic\\development\\BlockLogic.BlockChain\\BlockLogic.BlockChain.csproj",
+        "packagesPath": "C:\\Users\\rycs1\\.nuget\\packages\\",
+        "outputPath": "C:\\BlockLogic\\development\\BlockLogic.BlockChain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rycs1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NPoco": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BlockLogic\\development\\BlockLogic.Scheduler\\BlockLogic.Scheduler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BlockLogic\\development\\BlockLogic.Scheduler\\BlockLogic.Scheduler.csproj",
+        "projectName": "BlockLogic.Scheduler",
+        "projectPath": "C:\\BlockLogic\\development\\BlockLogic.Scheduler\\BlockLogic.Scheduler.csproj",
+        "packagesPath": "C:\\Users\\rycs1\\.nuget\\packages\\",
+        "outputPath": "C:\\BlockLogic\\development\\BlockLogic.Scheduler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rycs1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\BlockLogic\\development\\BlockLogic.TrickleSystem\\BlockLogic.TrickleSystem.csproj": {
+                "projectPath": "C:\\BlockLogic\\development\\BlockLogic.TrickleSystem\\BlockLogic.TrickleSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NPoco": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BlockLogic\\development\\BlockLogic.TrickleSystem\\BlockLogic.TrickleSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BlockLogic\\development\\BlockLogic.TrickleSystem\\BlockLogic.TrickleSystem.csproj",
+        "projectName": "BlockLogic.TrickleSystem",
+        "projectPath": "C:\\BlockLogic\\development\\BlockLogic.TrickleSystem\\BlockLogic.TrickleSystem.csproj",
+        "packagesPath": "C:\\Users\\rycs1\\.nuget\\packages\\",
+        "outputPath": "C:\\BlockLogic\\development\\BlockLogic.TrickleSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rycs1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\BlockLogic\\development\\BlockLogic.BlockChain\\BlockLogic.BlockChain.csproj": {
+                "projectPath": "C:\\BlockLogic\\development\\BlockLogic.BlockChain\\BlockLogic.BlockChain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "BlockCypher": {
+              "target": "Package",
+              "version": "[1.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.27, )"
+            },
+            "NPoco": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "QBitNinja.Client": {
+              "target": "Package",
+              "version": "[1.0.3.52, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
